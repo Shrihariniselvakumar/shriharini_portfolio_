@@ -132,7 +132,7 @@ GitHub: https://github.com/YOUR_USERNAME
 
 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
-Email: [your-email@example.com](mailto:your-email@example.com)
+Email: shrihariniselvakumar@gmail.com
 
 ---
 
