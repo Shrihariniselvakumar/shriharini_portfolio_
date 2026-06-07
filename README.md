@@ -1,78 +1,139 @@
-# Shri Harini Selvakumar — Executive Portfolio 2026
+# Shri Harini Selvakumar
 
-An editorial-grade, modular, and responsive professional engineering portfolio website. Built using **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **motion**, this single-page showcase merges structured technical complexity with a minimal, gorgeous dark aesthetic.
+###  Data Scientist • AI engineer •  ML Enthusiast  •Software Engineer
 
-The interface values deliberate spacing, precise typographic contrast, and structural unity to represent an interactive showcase of active development files, certifications, and career journeys.
-
----
-
-## 🎨 Visual Identity & Aesthetic Choices
-
-The workspace uses a custom-curated **Editorial Gothic Theme** featuring:
-- **Ink-Black Foundation & Coral Flare**: A rich off-black core (`#050505`) and elevated card elements (`#0a0a0a`), punctuated by an energetic coral key color (`#f27d26`).
-- **Typographic Pairings**: Clean, structural display headings using **Inter** matched with fluid running texts set in elegant, italicized **Cormorant Garamond** serif faces. System states are accented in crisp **JetBrains Mono**.
-- **Deliberate Negative Space**: Abandoning dense grids, the design prioritizes high breathing margins, delicate borders (`border-white/10`), and custom-rendered subtle dot-grids (`.dot-grid`).
+🌐 **Portfolio:** https://shri-harini-selvakumar-portfolio-987334121585.asia-southeast1.run.app/
 
 ---
 
-## ⚡ Functional Architecture & Features
+## About
 
-The portfolio is structured with responsive custom components designed for modularity and high performance:
-
-1. **Editorial Hero Panel (`Hero.tsx`)**
-   - High-contrast displaying typeface emphasizing her engineering status and skill descriptors.
-   - Micro-interactions for lightning-fast scrolling, profile attachments, and external links in the header.
-
-2. **Continuous Learning Registry (`Certifications.tsx` & `Skills.tsx`)**
-   - Instant filtering and query matching through a integrated reactive locator search. 
-   - Beautiful metric counting showing skill categorical counts dynamically.
-
-3. **Journey Timeline & Selected Projects (`Experience.tsx` & `Projects.tsx`)**
-   - High-end bento cards emphasizing spotlight repositories and spotlight rewards.
-   - Interactive project searching matching tags, categories, and titles.
-   - A modern vertical roadmap layout documenting industry tenure.
-
-4. **CV Archive & Modal Engine (`ResumeModal.tsx`)**
-   - A beautiful print-ready document modal with complete styling configurations.
-   - Includes real-time **Markdown Copy** utilities and browser **PDF Export Print** optimization.
-
-5. **Local Submission Terminal (`Contact.tsx`)**
-   - Secure input capturing with real-time browser validations and validation handling.
-   - Elegant feedback mechanics indicating transmission completions.
+This portfolio showcases my projects, technical skills, certifications, and professional journey in software engineering. The platform is designed to provide an engaging, responsive, and modern experience while highlighting real-world development work.
 
 ---
 
-## 🛠️ Stack & Implementation Highlights
+## Highlights
 
-- **Framework**: React 18+ paired with the rapid Vite HMR bundler.
-- **Styling**: Utility-first Tailwind CSS with custom theme attributes declared within standard `@theme { ... }` wrappers.
-- **Animations**: Staggered layout entrances and micro-hover states rendered fluidly through `motion` elements.
-- **Icons**: Clean Vector UI accents provided uniformly by the modern `lucide-react` library.
+* Responsive modern interface
+* Interactive project showcase
+* Skills and certifications registry
+* Professional experience timeline
+* Resume preview and export
+* Contact form with validation
+* Smooth animations and transitions
 
 ---
 
-## 🚀 Running locally
+## Tech Stack
 
-### 📋 Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+| Category   | Technologies      |
+| ---------- | ----------------- |
+| Frontend   | React, TypeScript |
+| Build Tool | Vite              |
+| Styling    | Tailwind CSS      |
+| Animation  | Motion            |
+| Icons      | Lucide React      |
 
-### ⚙️ Command Sequence
+---
+
+## Architecture
+
+```text
+src/
+├── components/
+├── assets/
+├── data/
+├── hooks/
+├── styles/
+
+public/
+index.html
+package.json
+vite.config.ts
+```
+
+---
+
+## Local Development
+
+### Install Dependencies
+
 ```bash
-# 1. Clone or import this package
-# 2. Install package dependencies
 npm install
+```
 
-# 3. Boot development environment
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-### 📦 Distributing & Building
-To resolve and compile client-side static pages to `dist/`, execute:
+### Build for Production
+
 ```bash
 npm run build
 ```
-The compiled files are fully self-contained and optimized for low-latency distribution on modern CDNs.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
 
 ---
 
-*Curated with precision, aligning strict design standards with elegant, high-impact career statements.*
+## Key Features
+
+### Professional Landing Section
+
+A clean introduction highlighting technical expertise, career focus, and quick access to important resources.
+
+### Projects Showcase
+
+Interactive project cards with technologies, descriptions, and repository references.
+
+### Skills & Certifications
+
+Searchable collections that present technical competencies and learning achievements.
+
+### Experience Timeline
+
+A structured overview of professional and academic milestones.
+
+### Resume Center
+
+Integrated resume viewing with print-friendly formatting.
+
+### Contact Interface
+
+Validated contact workflow for professional communication.
+
+---
+
+## Portfolio Goals
+
+This project was created to:
+
+* Showcase software engineering capabilities
+* Present technical projects professionally
+* Highlight continuous learning and certifications
+* Demonstrate frontend architecture and UI craftsmanship
+* Provide recruiters with a concise view of my work
+
+---
+
+## Contact
+
+**Shri Harini Selvakumar**
+
+Portfolio: https://shri-harini-selvakumar-portfolio-987334121585.asia-southeast1.run.app/
+
+GitHub: https://github.com/YOUR_USERNAME
+
+LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+
+Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the portfolio and repositories.
