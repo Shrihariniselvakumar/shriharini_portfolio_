@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0a0a0a;
+  --color-background: #050505;
+  --color-primary: #f27d26;
+  --color-[#00e7fe]: #f27d26; /* proxy for compatibility */
+  --color-[#006570]: #f27d26;
+  --color-primary-container: #ffffff;
+  --color-secondary: #f27d26;
+  --color-secondary-container: #1c1c1c;
+  --color-tertiary: #f27d26;
+  --color-on-surface: #ffffff;
+  --color-on-surface-variant: rgba(255, 255, 255, 0.6);
+  --color-outline: rgba(255, 255, 255, 0.3);
+  --color-outline-variant: rgba(255, 255, 255, 0.15);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Base custom styles to ensure design guidelines */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+}
+
+/* Custom dot-grid pattern of the Editorial Aesthetic */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Smooth transition for hover effects */
+.transition-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hide scrollbar for beauty but retain scrollable container */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Elegant selection colors */
+::selection {
+  background-color: #f27d26;
+  color: #ffffff;
+}
